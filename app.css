@@ -1,0 +1,32 @@
+.choice-container {
+  display:flex;
+  margin-bottom:0.5rem;
+  width: 100%;
+  font-size: 1.8rem;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: white;
+}
+
+.choice-container:hover {
+  cursor: pointer;
+  box-shadow: 0 0.4rem 1.4rem 0 rgba(86, 185, 235, 0.5);
+}
+
+
+.choice-prefix {
+  padding: 1.5rem 2.5rem;
+  background-color: rgb(19, 187, 187);
+  color: white;
+}
+
+.choice-text {
+  padding: 1.5rem;
+  width: 100%;
+}
+li{
+  list-style-type: none;
+}
+.select{
+  border: 0.5rem solid rgba(86, 166, 235, 0.685);
+}
